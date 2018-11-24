@@ -16,7 +16,7 @@ article {
   font-style: italic;
 }
 .quote:before {
-    content: open-quote;
+    content: "“";
     font-size: 750%;
     font-weight: bold;
     position: absolute;
@@ -25,8 +25,7 @@ article {
     z-index: -1;
   }
 .quote:after {
-  content: close-quote;
-  font-family: serif;
+  content: "”";
 }
 .quote-right {
   float: right;
@@ -46,7 +45,6 @@ article {
   text-align: right;
 }
 .quote-left:before {
-  content: open-quote;
   right: 1rem;
   top: -5rem;
 }
